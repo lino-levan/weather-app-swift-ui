@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C969024C28071F2000BDDE01 /* pintformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969024B28071F2000BDDE01 /* pintformApp.swift */; };
+		C969024E28071F2000BDDE01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969024D28071F2000BDDE01 /* ContentView.swift */; };
+		C969025028071F2200BDDE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C969024F28071F2200BDDE01 /* Assets.xcassets */; };
+		C969025328071F2200BDDE01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C969025228071F2200BDDE01 /* Preview Assets.xcassets */; };
+		C969025D28071F2200BDDE01 /* pintformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969025C28071F2200BDDE01 /* pintformTests.swift */; };
+		C969026728071F2200BDDE01 /* pintformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969026628071F2200BDDE01 /* pintformUITests.swift */; };
+		C969026928071F2200BDDE01 /* pintformUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969026828071F2200BDDE01 /* pintformUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C969025928071F2200BDDE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C969024028071F2000BDDE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C969024728071F2000BDDE01;
+			remoteInfo = pintform;
+		};
+		C969026328071F2200BDDE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C969024028071F2000BDDE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C969024728071F2000BDDE01;
+			remoteInfo = pintform;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C969024828071F2000BDDE01 /* pintform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pintform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C969024B28071F2000BDDE01 /* pintformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pintformApp.swift; sourceTree = "<group>"; };
+		C969024D28071F2000BDDE01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C969024F28071F2200BDDE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C969025228071F2200BDDE01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C969025828071F2200BDDE01 /* pintformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pintformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C969025C28071F2200BDDE01 /* pintformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pintformTests.swift; sourceTree = "<group>"; };
+		C969026228071F2200BDDE01 /* pintformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pintformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C969026628071F2200BDDE01 /* pintformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pintformUITests.swift; sourceTree = "<group>"; };
+		C969026828071F2200BDDE01 /* pintformUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pintformUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C969024528071F2000BDDE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C969025528071F2200BDDE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C969025F28071F2200BDDE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C969023F28071F2000BDDE01 = {
+			isa = PBXGroup;
+			children = (
+				C969024A28071F2000BDDE01 /* pintform */,
+				C969025B28071F2200BDDE01 /* pintformTests */,
+				C969026528071F2200BDDE01 /* pintformUITests */,
+				C969024928071F2000BDDE01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C969024928071F2000BDDE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C969024828071F2000BDDE01 /* pintform.app */,
+				C969025828071F2200BDDE01 /* pintformTests.xctest */,
+				C969026228071F2200BDDE01 /* pintformUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C969024A28071F2000BDDE01 /* pintform */ = {
+			isa = PBXGroup;
+			children = (
+				C969024B28071F2000BDDE01 /* pintformApp.swift */,
+				C969024D28071F2000BDDE01 /* ContentView.swift */,
+				C969024F28071F2200BDDE01 /* Assets.xcassets */,
+				C969025128071F2200BDDE01 /* Preview Content */,
+			);
+			path = pintform;
+			sourceTree = "<group>";
+		};
+		C969025128071F2200BDDE01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C969025228071F2200BDDE01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C969025B28071F2200BDDE01 /* pintformTests */ = {
+			isa = PBXGroup;
+			children = (
+				C969025C28071F2200BDDE01 /* pintformTests.swift */,
+			);
+			path = pintformTests;
+			sourceTree = "<group>";
+		};
+		C969026528071F2200BDDE01 /* pintformUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C969026628071F2200BDDE01 /* pintformUITests.swift */,
+				C969026828071F2200BDDE01 /* pintformUITestsLaunchTests.swift */,
+			);
+			path = pintformUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C969024728071F2000BDDE01 /* pintform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C969026C28071F2200BDDE01 /* Build configuration list for PBXNativeTarget "pintform" */;
+			buildPhases = (
+				C969024428071F2000BDDE01 /* Sources */,
+				C969024528071F2000BDDE01 /* Frameworks */,
+				C969024628071F2000BDDE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pintform;
+			productName = pintform;
+			productReference = C969024828071F2000BDDE01 /* pintform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C969025728071F2200BDDE01 /* pintformTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C969026F28071F2200BDDE01 /* Build configuration list for PBXNativeTarget "pintformTests" */;
+			buildPhases = (
+				C969025428071F2200BDDE01 /* Sources */,
+				C969025528071F2200BDDE01 /* Frameworks */,
+				C969025628071F2200BDDE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C969025A28071F2200BDDE01 /* PBXTargetDependency */,
+			);
+			name = pintformTests;
+			productName = pintformTests;
+			productReference = C969025828071F2200BDDE01 /* pintformTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C969026128071F2200BDDE01 /* pintformUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C969027228071F2200BDDE01 /* Build configuration list for PBXNativeTarget "pintformUITests" */;
+			buildPhases = (
+				C969025E28071F2200BDDE01 /* Sources */,
+				C969025F28071F2200BDDE01 /* Frameworks */,
+				C969026028071F2200BDDE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C969026428071F2200BDDE01 /* PBXTargetDependency */,
+			);
+			name = pintformUITests;
+			productName = pintformUITests;
+			productReference = C969026228071F2200BDDE01 /* pintformUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C969024028071F2000BDDE01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C969024728071F2000BDDE01 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					C969025728071F2200BDDE01 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = C969024728071F2000BDDE01;
+					};
+					C969026128071F2200BDDE01 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = C969024728071F2000BDDE01;
+					};
+				};
+			};
+			buildConfigurationList = C969024328071F2000BDDE01 /* Build configuration list for PBXProject "pintform" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C969023F28071F2000BDDE01;
+			productRefGroup = C969024928071F2000BDDE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C969024728071F2000BDDE01 /* pintform */,
+				C969025728071F2200BDDE01 /* pintformTests */,
+				C969026128071F2200BDDE01 /* pintformUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C969024628071F2000BDDE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C969025328071F2200BDDE01 /* Preview Assets.xcassets in Resources */,
+				C969025028071F2200BDDE01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C969025628071F2200BDDE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C969026028071F2200BDDE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C969024428071F2000BDDE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C969024E28071F2000BDDE01 /* ContentView.swift in Sources */,
+				C969024C28071F2000BDDE01 /* pintformApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C969025428071F2200BDDE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C969025D28071F2200BDDE01 /* pintformTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C969025E28071F2200BDDE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C969026928071F2200BDDE01 /* pintformUITestsLaunchTests.swift in Sources */,
+				C969026728071F2200BDDE01 /* pintformUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C969025A28071F2200BDDE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C969024728071F2000BDDE01 /* pintform */;
+			targetProxy = C969025928071F2200BDDE01 /* PBXContainerItemProxy */;
+		};
+		C969026428071F2200BDDE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C969024728071F2000BDDE01 /* pintform */;
+			targetProxy = C969026328071F2200BDDE01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C969026A28071F2200BDDE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C969026B28071F2200BDDE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C969026D28071F2200BDDE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pintform/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linolevan.pintform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C969026E28071F2200BDDE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pintform/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linolevan.pintform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C969027028071F2200BDDE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linolevan.pintformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pintform.app/pintform";
+			};
+			name = Debug;
+		};
+		C969027128071F2200BDDE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linolevan.pintformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pintform.app/pintform";
+			};
+			name = Release;
+		};
+		C969027328071F2200BDDE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linolevan.pintformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pintform;
+			};
+			name = Debug;
+		};
+		C969027428071F2200BDDE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linolevan.pintformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pintform;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C969024328071F2000BDDE01 /* Build configuration list for PBXProject "pintform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C969026A28071F2200BDDE01 /* Debug */,
+				C969026B28071F2200BDDE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C969026C28071F2200BDDE01 /* Build configuration list for PBXNativeTarget "pintform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C969026D28071F2200BDDE01 /* Debug */,
+				C969026E28071F2200BDDE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C969026F28071F2200BDDE01 /* Build configuration list for PBXNativeTarget "pintformTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C969027028071F2200BDDE01 /* Debug */,
+				C969027128071F2200BDDE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C969027228071F2200BDDE01 /* Build configuration list for PBXNativeTarget "pintformUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C969027328071F2200BDDE01 /* Debug */,
+				C969027428071F2200BDDE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C969024028071F2000BDDE01 /* Project object */;
+}
