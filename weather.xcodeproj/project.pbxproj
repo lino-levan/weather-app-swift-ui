@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C969024C28071F2000BDDE01 /* pintformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969024B28071F2000BDDE01 /* pintformApp.swift */; };
+		C969024C28071F2000BDDE01 /* weatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969024B28071F2000BDDE01 /* weatherApp.swift */; };
 		C969024E28071F2000BDDE01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969024D28071F2000BDDE01 /* ContentView.swift */; };
 		C969025028071F2200BDDE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C969024F28071F2200BDDE01 /* Assets.xcassets */; };
 		C969025328071F2200BDDE01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C969025228071F2200BDDE01 /* Preview Assets.xcassets */; };
-		C969025D28071F2200BDDE01 /* pintformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969025C28071F2200BDDE01 /* pintformTests.swift */; };
-		C969026728071F2200BDDE01 /* pintformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969026628071F2200BDDE01 /* pintformUITests.swift */; };
-		C969026928071F2200BDDE01 /* pintformUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969026828071F2200BDDE01 /* pintformUITestsLaunchTests.swift */; };
+		C969025D28071F2200BDDE01 /* weatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969025C28071F2200BDDE01 /* weatherTests.swift */; };
+		C969026728071F2200BDDE01 /* weatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969026628071F2200BDDE01 /* weatherUITests.swift */; };
+		C969026928071F2200BDDE01 /* weatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969026828071F2200BDDE01 /* weatherUITestsLaunchTests.swift */; };
+		C969027628073CEF00BDDE01 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969027528073CEF00BDDE01 /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C969024828071F2000BDDE01 /* pintform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pintform.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C969024B28071F2000BDDE01 /* pintformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pintformApp.swift; sourceTree = "<group>"; };
+		C969024828071F2000BDDE01 /* weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C969024B28071F2000BDDE01 /* weatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherApp.swift; sourceTree = "<group>"; };
 		C969024D28071F2000BDDE01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C969024F28071F2200BDDE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C969025228071F2200BDDE01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C969025828071F2200BDDE01 /* pintformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pintformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C969025C28071F2200BDDE01 /* pintformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pintformTests.swift; sourceTree = "<group>"; };
-		C969026228071F2200BDDE01 /* pintformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pintformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C969026628071F2200BDDE01 /* pintformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pintformUITests.swift; sourceTree = "<group>"; };
-		C969026828071F2200BDDE01 /* pintformUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pintformUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C969025828071F2200BDDE01 /* weatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C969025C28071F2200BDDE01 /* weatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherTests.swift; sourceTree = "<group>"; };
+		C969026228071F2200BDDE01 /* weatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C969026628071F2200BDDE01 /* weatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherUITests.swift; sourceTree = "<group>"; };
+		C969026828071F2200BDDE01 /* weatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C969027528073CEF00BDDE01 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +76,9 @@
 		C969023F28071F2000BDDE01 = {
 			isa = PBXGroup;
 			children = (
-				C969024A28071F2000BDDE01 /* pintform */,
-				C969025B28071F2200BDDE01 /* pintformTests */,
-				C969026528071F2200BDDE01 /* pintformUITests */,
+				C969024A28071F2000BDDE01 /* weather */,
+				C969025B28071F2200BDDE01 /* weatherTests */,
+				C969026528071F2200BDDE01 /* weatherUITests */,
 				C969024928071F2000BDDE01 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +86,23 @@
 		C969024928071F2000BDDE01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C969024828071F2000BDDE01 /* pintform.app */,
-				C969025828071F2200BDDE01 /* pintformTests.xctest */,
-				C969026228071F2200BDDE01 /* pintformUITests.xctest */,
+				C969024828071F2000BDDE01 /* weather.app */,
+				C969025828071F2200BDDE01 /* weatherTests.xctest */,
+				C969026228071F2200BDDE01 /* weatherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C969024A28071F2000BDDE01 /* pintform */ = {
+		C969024A28071F2000BDDE01 /* weather */ = {
 			isa = PBXGroup;
 			children = (
-				C969024B28071F2000BDDE01 /* pintformApp.swift */,
+				C969024B28071F2000BDDE01 /* weatherApp.swift */,
 				C969024D28071F2000BDDE01 /* ContentView.swift */,
+				C969027528073CEF00BDDE01 /* WeatherButton.swift */,
 				C969024F28071F2200BDDE01 /* Assets.xcassets */,
 				C969025128071F2200BDDE01 /* Preview Content */,
 			);
-			path = pintform;
+			path = weather;
 			sourceTree = "<group>";
 		};
 		C969025128071F2200BDDE01 /* Preview Content */ = {
@@ -110,29 +113,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C969025B28071F2200BDDE01 /* pintformTests */ = {
+		C969025B28071F2200BDDE01 /* weatherTests */ = {
 			isa = PBXGroup;
 			children = (
-				C969025C28071F2200BDDE01 /* pintformTests.swift */,
+				C969025C28071F2200BDDE01 /* weatherTests.swift */,
 			);
-			path = pintformTests;
+			path = weatherTests;
 			sourceTree = "<group>";
 		};
-		C969026528071F2200BDDE01 /* pintformUITests */ = {
+		C969026528071F2200BDDE01 /* weatherUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C969026628071F2200BDDE01 /* pintformUITests.swift */,
-				C969026828071F2200BDDE01 /* pintformUITestsLaunchTests.swift */,
+				C969026628071F2200BDDE01 /* weatherUITests.swift */,
+				C969026828071F2200BDDE01 /* weatherUITestsLaunchTests.swift */,
 			);
-			path = pintformUITests;
+			path = weatherUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C969024728071F2000BDDE01 /* pintform */ = {
+		C969024728071F2000BDDE01 /* weather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C969026C28071F2200BDDE01 /* Build configuration list for PBXNativeTarget "pintform" */;
+			buildConfigurationList = C969026C28071F2200BDDE01 /* Build configuration list for PBXNativeTarget "weather" */;
 			buildPhases = (
 				C969024428071F2000BDDE01 /* Sources */,
 				C969024528071F2000BDDE01 /* Frameworks */,
@@ -142,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = pintform;
+			name = weather;
 			productName = pintform;
-			productReference = C969024828071F2000BDDE01 /* pintform.app */;
+			productReference = C969024828071F2000BDDE01 /* weather.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C969025728071F2200BDDE01 /* pintformTests */ = {
+		C969025728071F2200BDDE01 /* weatherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C969026F28071F2200BDDE01 /* Build configuration list for PBXNativeTarget "pintformTests" */;
+			buildConfigurationList = C969026F28071F2200BDDE01 /* Build configuration list for PBXNativeTarget "weatherTests" */;
 			buildPhases = (
 				C969025428071F2200BDDE01 /* Sources */,
 				C969025528071F2200BDDE01 /* Frameworks */,
@@ -160,14 +163,14 @@
 			dependencies = (
 				C969025A28071F2200BDDE01 /* PBXTargetDependency */,
 			);
-			name = pintformTests;
+			name = weatherTests;
 			productName = pintformTests;
-			productReference = C969025828071F2200BDDE01 /* pintformTests.xctest */;
+			productReference = C969025828071F2200BDDE01 /* weatherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C969026128071F2200BDDE01 /* pintformUITests */ = {
+		C969026128071F2200BDDE01 /* weatherUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C969027228071F2200BDDE01 /* Build configuration list for PBXNativeTarget "pintformUITests" */;
+			buildConfigurationList = C969027228071F2200BDDE01 /* Build configuration list for PBXNativeTarget "weatherUITests" */;
 			buildPhases = (
 				C969025E28071F2200BDDE01 /* Sources */,
 				C969025F28071F2200BDDE01 /* Frameworks */,
@@ -178,9 +181,9 @@
 			dependencies = (
 				C969026428071F2200BDDE01 /* PBXTargetDependency */,
 			);
-			name = pintformUITests;
+			name = weatherUITests;
 			productName = pintformUITests;
-			productReference = C969026228071F2200BDDE01 /* pintformUITests.xctest */;
+			productReference = C969026228071F2200BDDE01 /* weatherUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C969024328071F2000BDDE01 /* Build configuration list for PBXProject "pintform" */;
+			buildConfigurationList = C969024328071F2000BDDE01 /* Build configuration list for PBXProject "weather" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C969024728071F2000BDDE01 /* pintform */,
-				C969025728071F2200BDDE01 /* pintformTests */,
-				C969026128071F2200BDDE01 /* pintformUITests */,
+				C969024728071F2000BDDE01 /* weather */,
+				C969025728071F2200BDDE01 /* weatherTests */,
+				C969026128071F2200BDDE01 /* weatherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C969024E28071F2000BDDE01 /* ContentView.swift in Sources */,
-				C969024C28071F2000BDDE01 /* pintformApp.swift in Sources */,
+				C969024C28071F2000BDDE01 /* weatherApp.swift in Sources */,
+				C969027628073CEF00BDDE01 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C969025D28071F2200BDDE01 /* pintformTests.swift in Sources */,
+				C969025D28071F2200BDDE01 /* weatherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C969026928071F2200BDDE01 /* pintformUITestsLaunchTests.swift in Sources */,
-				C969026728071F2200BDDE01 /* pintformUITests.swift in Sources */,
+				C969026928071F2200BDDE01 /* weatherUITestsLaunchTests.swift in Sources */,
+				C969026728071F2200BDDE01 /* weatherUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		C969025A28071F2200BDDE01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C969024728071F2000BDDE01 /* pintform */;
+			target = C969024728071F2000BDDE01 /* weather */;
 			targetProxy = C969025928071F2200BDDE01 /* PBXContainerItemProxy */;
 		};
 		C969026428071F2200BDDE01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C969024728071F2000BDDE01 /* pintform */;
+			target = C969024728071F2000BDDE01 /* weather */;
 			targetProxy = C969026328071F2200BDDE01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,7 +420,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"pintform/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = weather/Assets.xcassets;
+				DEVELOPMENT_TEAM = P22K9B2TFU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,8 +434,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.linolevan.pintform;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linolevan.weather;
+				PRODUCT_NAME = weather;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -444,7 +449,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"pintform/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = weather/Assets.xcassets;
+				DEVELOPMENT_TEAM = P22K9B2TFU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,8 +463,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.linolevan.pintform;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linolevan.weather;
+				PRODUCT_NAME = weather;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,7 +486,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pintform.app/pintform";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weather.app/weather";
 			};
 			name = Debug;
 		};
@@ -499,7 +505,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pintform.app/pintform";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weather.app/weather";
 			};
 			name = Release;
 		};
@@ -540,7 +546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C969024328071F2000BDDE01 /* Build configuration list for PBXProject "pintform" */ = {
+		C969024328071F2000BDDE01 /* Build configuration list for PBXProject "weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C969026A28071F2200BDDE01 /* Debug */,
@@ -549,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C969026C28071F2200BDDE01 /* Build configuration list for PBXNativeTarget "pintform" */ = {
+		C969026C28071F2200BDDE01 /* Build configuration list for PBXNativeTarget "weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C969026D28071F2200BDDE01 /* Debug */,
@@ -558,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C969026F28071F2200BDDE01 /* Build configuration list for PBXNativeTarget "pintformTests" */ = {
+		C969026F28071F2200BDDE01 /* Build configuration list for PBXNativeTarget "weatherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C969027028071F2200BDDE01 /* Debug */,
@@ -567,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C969027228071F2200BDDE01 /* Build configuration list for PBXNativeTarget "pintformUITests" */ = {
+		C969027228071F2200BDDE01 /* Build configuration list for PBXNativeTarget "weatherUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C969027328071F2200BDDE01 /* Debug */,
